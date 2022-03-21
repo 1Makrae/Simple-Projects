@@ -1,5 +1,5 @@
-def Main(length):
-    fib(length)
+def Main():
+    fib(10)
 
 def fib(length):
     printNum = 1
@@ -23,3 +23,4 @@ def fib(length):
             printNum = printNum + 1
             Fibonacci2= printer
 
+Main()
